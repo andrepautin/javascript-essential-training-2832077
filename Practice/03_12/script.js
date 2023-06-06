@@ -6,3 +6,15 @@
  * - Create several objects using the class.
  * - Test the objecs by calling their properties and using their methods in the console.
  */
+
+class Hat {
+  constructor(color, billType, strap, team) {
+    this.color = color;
+    this.billType = billType;
+    this.strap = strap;
+    this.team = team;
+  }
+}
+
+const brandNew = new Hat("black", "straight", "none", "giants");
+console.log(brandNew);
